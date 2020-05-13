@@ -1,0 +1,27 @@
+/*
+* @Author: SongShuhang
+* @Date:   2020-05-13 09:44:31
+* @Last Modified by:   SongShuhang
+* @Last Modified time: 2020-05-13 10:44:07
+*/
+/* 导航主体 */
+.nav-side{
+	float: left;
+	width: 130px;
+	min-height: 100px;
+}
+.nav-side .nav-item{
+	line-height: 25px;
+	font-size: 13px;
+}
+.nav-side .nav-item .link{
+	color: #666;
+}
+.nav-side .nav-item.active .link{
+	color: #c60023;
+}
+/* 右侧内容区 */
+.content.with-nav{
+	float: left;
+	width: 950px
+}

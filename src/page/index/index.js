@@ -2,8 +2,15 @@
 * @Author: SongShuhang
 * @Date:   2020-05-02 18:04:08
 * @Last Modified by:   SongShuhang
-* @Last Modified time: 2020-05-02 20:24:09
+* @Last Modified time: 2020-05-13 10:44:25
 */
 
-require('./index.css');
-require('../module.js');
+require('page/common/nav/index.js');
+require('page/common/header/index.js');
+var navSide = require('page/common/nav-side/index.js');
+var _store = require('util/store.js');
+
+navSide.init({
+	name : 'pass-update'
+});
+

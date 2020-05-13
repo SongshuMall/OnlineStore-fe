@@ -1,0 +1,36 @@
+/*
+* @Author: SongShuhang
+* @Date:   2020-05-13 08:36:24
+* @Last Modified by:   SongShuhang
+* @Last Modified time: 2020-05-13 09:28:53
+*/
+/* 通用头部导航 */
+.header .logo{
+	position: absolute;
+	left: 56px;
+	top: 34px;
+	display: block;
+	font-size: 36px;
+	color: #c60023;
+	font-weight: bold;
+}
+
+.header .search-con{
+	padding: 40px 0 30px 250px;
+}
+
+.header .search-con .search-input{
+	width: 550px;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 10px;
+	font-size: 15px;
+	border: 2px solid #c60023;
+	outline: none;
+}
+
+.header .search-con .search-btn{
+	position: absolute;
+	height: 44px;
+	width: 80px;
+}

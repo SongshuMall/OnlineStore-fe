@@ -2,7 +2,7 @@
 * @Author: SongShuhang
 * @Date:   2020-05-13 09:44:31
 * @Last Modified by:   SongShuhang
-* @Last Modified time: 2020-05-13 10:44:07
+* @Last Modified time: 2020-05-14 17:34:48
 */
 /* 导航主体 */
 .nav-side{
@@ -12,7 +12,7 @@
 }
 .nav-side .nav-item{
 	line-height: 25px;
-	font-size: 13px;
+	font-size: 14px;
 }
 .nav-side .nav-item .link{
 	color: #666;

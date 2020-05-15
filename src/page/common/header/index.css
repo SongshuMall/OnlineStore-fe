@@ -2,7 +2,7 @@
 * @Author: SongShuhang
 * @Date:   2020-05-13 08:36:24
 * @Last Modified by:   SongShuhang
-* @Last Modified time: 2020-05-13 09:28:53
+* @Last Modified time: 2020-05-14 16:35:12
 */
 /* 通用头部导航 */
 .header .logo{
@@ -13,6 +13,7 @@
 	font-size: 36px;
 	color: #c60023;
 	font-weight: bold;
+	text-decoration: none;
 }
 
 .header .search-con{
@@ -33,4 +34,15 @@
 	position: absolute;
 	height: 44px;
 	width: 80px;
+}
+
+/* 面包屑导航 */
+.crumb{
+	margin-bottom: 15px;
+	height: 50px;
+	line-height: 50px;
+	background: #eee;
+	color: #808080;
+	font-size: 15px;
+	border-top: 2px solid #c60023;
 }

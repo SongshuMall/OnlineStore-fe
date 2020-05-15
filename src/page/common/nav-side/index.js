@@ -2,7 +2,7 @@
 * @Author: SongShuhang
 * @Date:   2020-05-13 09:44:20
 * @Last Modified by:   SongShuhang
-* @Last Modified time: 2020-05-13 10:43:06
+* @Last Modified time: 2020-05-15 10:06:51
 */
 require('./index.css');
 var _store 			=  require('util/store.js');
@@ -14,7 +14,7 @@ var navSide = {
 		navList : [
 			{name : 'user-center', desc:'个人中心', href:'./user-center.html'},
 			{name : 'order-list', desc:'我的订单', href:'./order-list.html'},
-			{name : 'pass-update', desc:'修改密码', href:'./pass-update.html'},
+			{name : 'user-pass-update', desc:'修改密码', href:'./user-pass-update.html'},
 			{name : 'about', desc:'关于松鼠航', href:'./about.html'}
 		]
 	},

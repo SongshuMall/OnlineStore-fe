@@ -2,7 +2,7 @@
 * @Author: SongShuhang
 * @Date:   2020-05-12 10:39:25
 * @Last Modified by:   SongShuhang
-* @Last Modified time: 2020-05-12 16:10:21
+* @Last Modified time: 2020-05-14 20:24:27
 */
 
 var Hogan = require('hogan.js');
@@ -77,12 +77,12 @@ var _store = {
     	}
     	//邮箱验证
     	if('email' === type){
-    		return /^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/.test(vaule);
+    		return /^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/.test(value);
     	}
     },
 	//统一登录处理
 	doLogin : function(){
-		window.location.href = './login.html?redirect=' + encodeURIComponent(window.location.href);
+		window.location.href = './user-login.html?redirect=' + encodeURIComponent(window.location.href);
 	},
 	//跳转主页
 	goHome : function(){

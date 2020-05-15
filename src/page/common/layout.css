@@ -2,7 +2,7 @@
 * @Author: SongShuhang
 * @Date:   2020-05-12 16:11:25
 * @Last Modified by:   SongShuhang
-* @Last Modified time: 2020-05-12 17:43:20
+* @Last Modified time: 2020-05-14 17:38:11
 */
 /* css reset */
 *{
@@ -30,6 +30,24 @@ input[type='checkbox']{
 	margin : 0 auto;
 	position : relative;
 	overflow : hidden;
+}
+
+/* panel容器 */
+.panel{
+	padding: 10px;
+	margin-bottom: 10px;
+	background: #fff;
+}
+.panel .panel-title{
+	padding: 10px;
+	font-size: 14px;
+	color: #686868;
+	font-weight: bold;
+	border-bottom: 1px solid #C8C8C8;
+}
+.panel .panel-body{
+	padding: 10px;
+	overflow: hidden;
 }
 
 /* 全局通用样式 */

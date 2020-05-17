@@ -2,7 +2,7 @@
 * @Author: SongShuhang
 * @Date:   2020-05-12 16:11:25
 * @Last Modified by:   SongShuhang
-* @Last Modified time: 2020-05-14 17:38:11
+* @Last Modified time: 2020-05-17 09:22:03
 */
 /* css reset */
 *{
@@ -12,6 +12,9 @@
 body{
 	background : #f6f6f6;
 	font : 14px/1.5 Microsoft YaHei, tahoma, arial, sans-serif;
+}
+li{
+    list-style: none;
 }
 img{
 	display : block;

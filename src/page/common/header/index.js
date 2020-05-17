@@ -2,7 +2,7 @@
 * @Author: SongShuhang
 * @Date:   2020-05-13 08:36:13
 * @Last Modified by:   SongShuhang
-* @Last Modified time: 2020-05-13 09:21:53
+* @Last Modified time: 2020-05-16 10:25:14
 */
 
 require('./index.css');
@@ -11,10 +11,11 @@ var _store = require('util/store.js');
 //通用页面头部
 var header = {
 	init : function(){
+		this.onLoad();
 		this.bindEvent();
 	},
-	onload : function(){
-		var keyword = _store.getUrlParam(keyword);
+	onLoad : function(){
+		var keyword = _store.getUrlParam('keyword');
 		//keyword存在，则回填输入框
 		if (keyword) {
 			$('#search-input').val(keyword);

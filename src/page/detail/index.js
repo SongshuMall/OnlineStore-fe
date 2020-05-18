@@ -2,7 +2,7 @@
 * @Author: SongShuhang
 * @Date:   2020-05-17 08:22:05
 * @Last Modified by:   SongShuhang
-* @Last Modified time: 2020-05-17 10:44:15
+* @Last Modified time: 2020-05-18 19:21:17
 */
 
 require('./index.css');
@@ -62,7 +62,7 @@ var page = {
   				productId : _this.data.productId,
   				count 	  : $('.p-count').val()
   			}, function(res){
-  				window.location.href = '.result.html?type=cart-add';
+  				window.location.href = 'result.html?type=cart-add';
   			},function(errMsg){
   				_store.errorTips(errMsg);
   			})

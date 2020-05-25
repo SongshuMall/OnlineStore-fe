@@ -2,7 +2,7 @@
 * @Author: SongShuhang
 * @Date:   2020-05-12 17:33:15
 * @Last Modified by:   SongShuhang
-* @Last Modified time: 2020-05-17 11:09:21
+* @Last Modified time: 2020-05-25 17:51:22
 */
 
 require('./index.css');
@@ -29,7 +29,7 @@ var nav = {
         // 退出点击事件
         $('.js-logout').click(function(){
             _user.logout(function(res){
-                window.location.reload();
+                window.location.href = './user-login.html';
             }, function(errMsg){
                 _store.errorTips(errMsg);
             });

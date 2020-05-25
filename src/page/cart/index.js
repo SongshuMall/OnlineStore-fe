@@ -2,7 +2,7 @@
 * @Author: SongShuhang
 * @Date:   2020-05-18 10:26:35
 * @Last Modified by:   SongShuhang
-* @Last Modified time: 2020-05-18 19:31:26
+* @Last Modified time: 2020-05-24 09:26:11
 */
 
 require('./index.css');
@@ -129,7 +129,7 @@ var page = {
  		$(document).on('click', '.btn-submit', function(){
  			//总价大于0，就进行提交
  			if (_this.data.cartInfo && _this.data.cartInfo.cartTotalPrice > 0) {
- 				window.location.href = './confirm.html'
+ 				window.location.href = './order-confirm.html'
  			} else {
  				_store.errorTips('请选择商品之后再提交');
  			}

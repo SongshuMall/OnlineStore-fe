@@ -2,7 +2,7 @@
 * @Author: SongShuhang
 * @Date:   2020-05-14 15:07:55
 * @Last Modified by:   SongShuhang
-* @Last Modified time: 2020-05-14 16:11:03
+* @Last Modified time: 2020-05-19 21:55:50
 */
 
 require('./index.css');
@@ -89,9 +89,9 @@ var page = {
 				//更新密码
 				//(三个参数：需要提交的数据集合，响应成功方法，响应失败方法)
 				_user.resetPassword({
-					username 		 : _this.data.username,
-					passwordNew 	 : password,
-					forgetToken 	 : _this.data.token
+					username        : _this.data.username,
+                    passwordNew     : password,
+                    forgetToken     : _this.data.token
 				}, function(res){
 					window.location.href = './result.html?type=pass-reset';
 				}, function(errMsg){

@@ -2,7 +2,7 @@
 * @Author: SongShuhang
 * @Date:   2020-05-14 11:10:47
 * @Last Modified by:   SongShuhang
-* @Last Modified time: 2020-05-14 20:31:07
+* @Last Modified time: 2020-05-19 15:29:21
 */
 var _store = require('util/store.js');
 
@@ -54,14 +54,14 @@ var _user = {
 	},
 	//重置密码
 	resetPassword : function(userInfo, resolve, reject){
-		_store.request({
-			url 	:  _store.getServerUrl('/user/forget_reset_password.do'),
-			data	:  userInfo,
-			method	:  'POST',
-			success :  resolve,
-			error 	:  reject
-		});
-	},
+        _store.request({
+            url     : _store.getServerUrl('/user/forget_reset_password.do'),
+            data    : userInfo,
+            method  : 'POST',
+            success : resolve,
+            error   : reject
+        });
+    },
 	//用户注册
 	register : function(userInfo, resolve, reject){
 		_store.request({

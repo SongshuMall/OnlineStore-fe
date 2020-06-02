@@ -2,7 +2,7 @@
 * @Author: SongShuhang
 * @Date:   2020-05-02 18:14:46
 * @Last Modified by:   SongShuhang
-* @Last Modified time: 2020-06-02 11:48:02
+* @Last Modified time: 2020-06-02 12:03:05
 */
 
 var webpack     	    =   require('webpack');
@@ -46,8 +46,8 @@ var config = {
 		'about' 				: 	 ['./src/page/about/index.js']
 	},
 	output : {
-        path 		: __dirname + '/dist',
-        publicPath  : 'dev' === WEBPACK_ENV  ? '/dist/' : '//s.guangping.store/OnlineStore-fe/dist/',
+        path 		: __dirname + '/',
+        publicPath  : 'dev' === WEBPACK_ENV  ? '/' : '//s.guangping.store/OnlineStore-fe/',
         filename	: 'js/[name].js'
 	},
 	externals : {
